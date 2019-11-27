@@ -9,6 +9,6 @@ from landing.views import index
 
 urlpatterns = [
     url('test/', views.test, name='test'),
-    url('', views.index, name='index'),
+   # url('', views.index, name='index'),
      
 ]

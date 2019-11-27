@@ -10,7 +10,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello World!")
+    return HttpResponse("Hello Landing!")
 
 def test(request):
     return HttpResponse("Hello Test!")
