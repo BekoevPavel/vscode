@@ -8,10 +8,10 @@ import blog
 import home
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^landing/', include('landing.urls')),
+    url(r'^blog/', include('blog.urls')),
+   # url(r'', include('home.urls')),
 
-     url(r'^blog/', include('blog.urls')),
-     url(r'', include('home.urls')),
-     url(r'^landing/', include('landing.urls')),
 ]
 
 urlpatterns+= static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
