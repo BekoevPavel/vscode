@@ -149,6 +149,4 @@ DATABASES['default'].update(db_from_env)
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-django_heroku.settings(locals())
-# This is new
-del DATABASES['default']['OPTIONS']['sslmode']
+
