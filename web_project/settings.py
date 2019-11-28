@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'blog',
     'home',
     'landing',
@@ -92,6 +93,8 @@ WSGI_APPLICATION = 'web_project.wsgi.application'
 #     }
 # }
 import dj_database_url
+
+
 DATABASES = {
     'default': dj_database_url.config()
 }
@@ -146,4 +149,6 @@ DATABASES['default'].update(db_from_env)
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-
+django_heroku.settings(locals())
+# This is new
+del DATABASES['default']['OPTIONS']['sslmode']

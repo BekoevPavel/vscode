@@ -4,4 +4,5 @@ Django==1.11.26
 gunicorn==19.9.0
 psycopg2==2.8.4
 whitenoise==4.1.4
+django-heroku==0.3.1
 
