@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3eaae7-e27b-4031-b4ea-27df12c4ad4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_project/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +30,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+            <state relative-caret-position="122">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <marker date="1574966462976" expanded="true" signature="2523:2781" ph="..." />
+                <marker date="1574966743767" expanded="true" signature="2496:2754" ph="..." />
               </folding>
             </state>
           </provider>
@@ -219,16 +218,15 @@
       <option name="presentableId" value="Default" />
       <updated>1574887322517</updated>
       <workItem from="1574887324182" duration="2964000" />
-      <workItem from="1574955940078" duration="6993000" />
+      <workItem from="1574955940078" duration="7262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9957000" />
+    <option name="totallyTimeSpent" value="10226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -376,10 +374,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+        <state relative-caret-position="122">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
-            <marker date="1574966462976" expanded="true" signature="2523:2781" ph="..." />
+            <marker date="1574966743767" expanded="true" signature="2496:2754" ph="..." />
           </folding>
         </state>
       </provider>

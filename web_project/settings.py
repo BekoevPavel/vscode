@@ -36,7 +36,7 @@ ALLOWED_HOSTS = ['.herokuapp.com']
 
 INSTALLED_APPS = [
 
-    'blog',
+    'blog.apps.BlogConfig',
     'home',
     'landing',
     'django.contrib.admin',
